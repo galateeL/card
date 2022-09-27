@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-global-g4 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container-g4 {
+    width: 33vw;
+    font-size: 24px;
+    border: 2px solid grey;
+    
+}
+
+.profil-img img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.container1 {
+    background-color: blueviolet;
+    display: flex;
+}
+
+.identity-container {
+    font-size: 0.5em;
+}
+
+.identity-container h2 {
+    font-size: 1em;
+}
+
+.animal-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.animal-name {
+    font-size: 0.5em;
+}
+
+.column1 {
+    background-color: brown;
+
+}
+
+.column2 {
+    background-color: aquamarine;
+    width: 100%;
+}
+
+.hobbies-container {
+    width: 100%;
+    display: flex;
+  flex-direction: column;
+ justify-content: space-around;
+  align-items: center;
+
+}
+
+.hobbies1, .hobbies2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hobbies-container img {
+    width: 100px;
+    margin-top: 1.2em;
+
+}
+
+
+.container2 {
+    background-color: blue;
+}
+
+
+
+.column3 {
+    display: flex;
+
+}
+
+.holiday {
+    width: 33%;
+    height: 180px;
+}
+.holiday img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.season {
+   width: 33%;
+    object-fit: cover;
+    height: 180px;
+}
+.season img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+
+#map, #map2, #map3 { height: 180px;
+width: 67%; }
+

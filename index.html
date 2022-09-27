@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="style_g4.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css"
+	integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+	crossorigin=""/>
+	
+	<title>Trombinoscope 2022</title>	
+</head>
+<body>
+
+<!-- HEADER -->
+<header></header>
+<!--  -->
+
+<!-- MAIN -->
+<main>
+	<div class="container-global-g4">
+	<div class="container-g4">
+
+		<div class="profil-img">
+			<img src="https://images.unsplash.com/photo-1502085671122-2d218cd434e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1226&q=80" alt=""/>
+		</div>
+
+
+		<div class="container1">
+
+			<div class="column1">
+				<div class="identity-container">
+						<h2>Nom : </h2>
+						<h2>Prénom : </h2>
+						<h2>Surnom : </h2>
+						<h2>Age : </h2>
+						<h2>Couleur des yeux : </h2>
+						<h2>Passion : </h2>
+					</div>
+					<figure class="animal">
+						<img class="animal-img" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+						<figcaption class="animal-name">nom de l'animal</figcaption>
+					</figure>
+				</div>	
+
+				<div class="column2">
+					<div class="hobbies-container">
+						<div class="hobbies1">
+							<img class="music" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+							<img class="food" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+							<img class="drink" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+						</div>
+						<div class="hobbies2">
+							<img class="movie" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+							<img class="movie-character" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+							<img class="sport" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+						</div>	
+					</div>
+				</div>
+			</div>
+
+			<div class="container2">
+
+				<div class="column3">
+					<div class="holiday">
+						<img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" alt=""/>
+					</div>
+					<div class="map" id="map">
+
+					</div>
+					<div class="season">
+						<img src="https://media3.giphy.com/media/pRqILh4QXAXHq/200.gif" alt=""/>
+					</div>
+				</div>
+			</div>
+
+	</div>
+
+	<div class="container-g4">
+
+		<div class="profil-img">
+			<img src="https://images.unsplash.com/photo-1502085671122-2d218cd434e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1226&q=80" alt=""/>
+		</div>
+
+
+		<div class="container1">
+
+			<div class="column1">
+				<div class="identity-container">
+						<h2>Nom : </h2>
+						<h2>Prénom : </h2>
+						<h2>Surnom : </h2>
+						<h2>Age : </h2>
+						<h2>Couleur des yeux : </h2>
+						<h2>Passion : </h2>
+					</div>
+					<figure class="animal">
+						<img class="animal-img" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+						<figcaption class="animal-name">nom de l'animal</figcaption>
+					</figure>
+				</div>	
+
+				<div class="column2">
+					<div class="hobbies-container">
+						<div class="hobbies1">
+							<img class="music" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+							<img class="food" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+							<img class="drink" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+						</div>
+						<div class="hobbies2">
+							<img class="movie" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+							<img class="movie-character" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+							<img class="sport" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+						</div>	
+					</div>
+				</div>
+			</div>
+
+			<div class="container2">
+
+				<div class="column3">
+					<div class="holiday">
+						<img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" alt=""/>
+					</div>
+					<div class="map" id="map2">
+
+					</div>
+					<div class="season">
+						<img src="https://media3.giphy.com/media/pRqILh4QXAXHq/200.gif" alt=""/>
+					</div>
+				</div>
+			</div>
+
+	</div>
+
+
+	<div class="container-g4">
+
+		<div class="profil-img">
+			<img src="https://images.unsplash.com/photo-1502085671122-2d218cd434e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1226&q=80" alt=""/>
+		</div>
+
+
+		<div class="container1">
+
+			<div class="column1">
+				<div class="identity-container">
+						<h2>Nom : </h2>
+						<h2>Prénom : </h2>
+						<h2>Surnom : </h2>
+						<h2>Age : </h2>
+						<h2>Couleur des yeux : </h2>
+						<h2>Passion : </h2>
+					</div>
+					<figure class="animal">
+						<img class="animal-img" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+						<figcaption class="animal-name">nom de l'animal</figcaption>
+					</figure>
+				</div>	
+
+				<div class="column2">
+					<div class="hobbies-container">
+						<div class="hobbies1">
+							<img class="music" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+							<img class="food" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+							<img class="drink" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+						</div>
+						<div class="hobbies2">
+							<img class="movie" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+							<img class="movie-character" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+							<img class="sport" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt=""/>
+						</div>	
+					</div>
+				</div>
+			</div>
+
+			<div class="container2">
+
+				<div class="column3">
+					<div class="holiday">
+						<img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" alt=""/>
+					</div>
+					<div class="map" id="map3">
+
+					</div>
+					<div class="season">
+						<img src="https://media3.giphy.com/media/pRqILh4QXAXHq/200.gif" alt=""/>
+					</div>
+				</div>
+			</div>
+
+	</div>
+
+</div>
+
+
+	<div class="container">
+		
+		<!-- TODO -->
+
+	</div>
+</main>	
+<!--  -->
+
+<!-- FOOTER -->
+<footer></footer>
+<!--  -->
+
+<script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
+   integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s="
+   crossorigin=""></script>
+
+<script>
+	var map = L.map('map').setView([51.505, -0.09], 13);
+	L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: 19,
+		attribution: '© OpenStreetMap'
+	}).addTo(map);
+	var marker = L.marker([51.5, -0.09]).addTo(map);
+</script>
+
+<script>
+	var map2 = L.map('map2').setView([51.505, -0.09], 13);
+	L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: 19,
+		attribution: '© OpenStreetMap'
+	}).addTo(map2);
+	var marker = L.marker([51.5, -0.09]).addTo(map2);
+</script>
+
+<script>
+	var map3 = L.map('map3').setView([51.505, -0.09], 13);
+	L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: 19,
+		attribution: '© OpenStreetMap'
+	}).addTo(map3);
+	var marker = L.marker([51.5, -0.09]).addTo(map3);
+</script>
+
+</body>
+</html>
